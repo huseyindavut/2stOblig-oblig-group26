@@ -3,7 +3,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid: gap 8px;;
     background-color: rgb(151, 244, 171);
-    padding: 16px;
+    padding: 6px;
     font-size: large;
     font-style:unset;
 
