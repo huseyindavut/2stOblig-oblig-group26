@@ -15,7 +15,7 @@
 
 .ink {
     display: grid;
-    background-color: #f771b4;
+    background-color: #843059;
     grid-template-columns: repeat(4, 1fr); 
     grid-column: span;
     gap: 10px; 
