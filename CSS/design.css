@@ -76,6 +76,23 @@
     font-size:larger;
     line-height: 1,5;
 }
+.left-column{
+    text-align: left;
+}
+.right-column{
+    text-align: right;
+}
+.paragraph2{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-column:span;
+    gap: 10px; 
+    padding: 6px; 
+    text-align:left;
+    color: #0a0000;
+    font-size:larger;
+    line-height: 1,5;
+}
 
 .footer {
     background-color: #389260;
