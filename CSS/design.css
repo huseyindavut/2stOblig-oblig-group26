@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3498db; /* Arkaplan rengi */
+    background-color: #d9f183; /* Arkaplan rengi */
     color: #fff; /* Yazı rengi */
     font-size: 24px; /* Yazı boyutu */
     border-radius: 5px; /* Kenar yuvarlaklığı */
@@ -34,7 +34,7 @@
 }
 
 
-header {
+.header {
     background-color: #389260;
     border-radius: 50%;
     color: #fff;
@@ -44,29 +44,32 @@ header {
     text-align: center;
 }
 
-header h1 {
+.h1 {
+    text-align: center;
     margin: 0;
     font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
 }
 
-header p {
+.header p {
     margin: 5px 0;
 }
 
-article {
+.article {
     margin: 20px 0;
 }
 
-h2 {
+.h2 {
     font-size: 20px;
 }
 
-.p {
+p {
     font-size: 16px;
     line-height: 1.5;
 }
 
-footer {
+.footer {
     background-color: #389260;
     border-radius: 50%;
     color: #fff;
