@@ -47,8 +47,8 @@
 
 .h1 {
     text-align: center;
-    margin: 0;
-    font-size: 24px;
+    margin: 10px;
+    font-size: 80px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
 }
@@ -100,4 +100,26 @@
     color: #fff;
     text-align: center;
     padding: 10px;
+}
+
+.Grid_Cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.Grid_It {
+    text-align: center;
+}
+
+.Grid_It img {
+    width: 75%;
+    height: auto;
+    border-style: groove;
+}
+
+.Grid_It a {
+    text-decoration: none;
+    color: black;
 }
