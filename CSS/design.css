@@ -2,7 +2,7 @@
     font-family: Arial, sans-serif;
     margin: 10px;
     padding: 10px;
-    background-color;
+    background-color:#fff;
 }
     
 
@@ -37,6 +37,7 @@
 
 .header {
     background-color: rgb(80, 64, 171);
+    border-radius: 50%;
     border-style:inset ;
     color: #fff;
     padding: 10px;
@@ -124,4 +125,34 @@
 .Grid_It a {
     text-decoration: none;
     color: black;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header p {
+    margin: 5px 0;
+}
+.grid4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid: gap 8px;;
+    background-color: rgb(151, 244, 171);
+    padding: 6px;
+    font-size: large;
+    font-style:unset;
+
+}
+menu-main{
+    background-color: rgb(221, 201, 239);
+    color: rgb(188, 40, 40);
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
 }
