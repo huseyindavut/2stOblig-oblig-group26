@@ -2,14 +2,14 @@
     font-family: Arial, sans-serif;
     margin: 10px;
     padding: 10px;
-    background-color:#fff;
+    background-color:#ffe6e6;
 }
     
 
 .bildet{
     height: 50%;
-    border-radius: 5%;
-    width: 100%;
+    border-radius: 10%;
+    width: 90%;
     padding: 10px;
     margin: 10px;
 }
@@ -35,7 +35,7 @@
 }
 
 
-header {
+.header {
     background-color: rgb(92, 189, 228);
     border-radius: 50%;
     border-style:inset ;
@@ -104,14 +104,7 @@ header p {
     font-style:unset;
 
 }
-menu-main{
-    background-color: rgb(116, 21, 199);
-    color: rgb(188, 40, 40);
-    text-align: center;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-}
+
 .my_main {
     background-color: rgb(252, 246, 246);
 }
@@ -147,7 +140,7 @@ menu-main{
     color: #542179;
     font-size: 22px;
 }
-p {
+.p {
     text-align:center;
     display: block;
     margin-block-start: 10px;
