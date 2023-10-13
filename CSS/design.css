@@ -194,3 +194,9 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+a {
+    color: #5240f1;
+    font-size:large;
+    text-align:right;
+
+}
