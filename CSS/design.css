@@ -279,3 +279,52 @@ a {
      color: #8a2455;
      font-size: 25px;
 }
+#content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.text-container p.hidden {
+    display: none;
+}
+.collapsible {
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+/* Başlık butonunun stil */
+.collapsible-button {
+
+    font-style: oblique;
+    color:#000000;
+    text-underline-offset:unset ;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    display: block;
+}
+
+/* Checkbox gizli olarak ayarlandı */
+#collapsible-checkbox {
+    display:grid;
+}
+
+/* Checkbox işaretlendiğinde içerik görünür olur */
+#collapsible-checkbox:checked + .collapsible-button + .collapsible-content {
+    display: block;
+}
+
+/* İçerik bölümünün stil */
+.collapsible-content {
+    display: none;
+    padding: 10px;
+}
+
+
+
+
+
