@@ -7,9 +7,7 @@
 }
 
 .background{
-    background-image:url(../Img/grey-background-v1.jpg);
-    border-image-repeat: round;
-    background-size: cover;
+   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -110,8 +108,8 @@
 }
 
 .footer {
-    background-color: #000000;
-    color: #f5fcc5;
+    background-color: #fe9307;
+    color: #000000;
    display: flex;
    justify-content: space-around;
    padding: 20px 0;
@@ -231,7 +229,7 @@ p {
 }
 
 nav ul {
-    background-color: #dcd9de;
+    background-color: #fe9307;
     list-style: none;
     padding: 0px;
     display: flex;
