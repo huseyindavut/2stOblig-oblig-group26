@@ -35,8 +35,9 @@ figure {
     text-align:center;
     font-size:20px;
     font-style: oblique;
-   
+    font-weight: bold;
     text-shadow: #050600;
+    padding-bottom: 40px;
 
     
 
@@ -66,15 +67,16 @@ figure {
 
 .header {
     background-color: rgb(255, 204, 0);
-    border-radius: 50%;
-    border-style:groove ;
+    border-radius: 0%;
     color: #050600;
     padding: 10px;
     margin:auto;
-    width: 90%;
+    margin-top:90px;
+    width: 60%;
     text-align: center;
     font-size: 10px;
     font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 90px;
 }
 
 .h1 {
@@ -96,18 +98,6 @@ figure {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.h2 {
-    font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-.h22 {
-    font-size: 18px;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-decoration: solid;
-}
-
 .left-column{
     text-align:inherit;
     font-family:Arial, Helvetica, sans-serif;
@@ -126,7 +116,9 @@ figure {
    font-family:Arial, Helvetica, sans-serif;
 }
 
+
 .column {
+    padding-top: 30px;
     flex:1;
     padding: 0 20px;
     text-align: center;
@@ -134,8 +126,11 @@ figure {
 }
 
 .column h3{
-    font-size: 15px;
+    padding: 10px;
+    font-size: 28px;
     font-family:'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 
@@ -223,15 +218,27 @@ p {
     font-size: 60px;  
     font-family:Arial, Helvetica, sans-serif;
 }
-.h2 {
+h2 {
   
     color: rgb(0, 0, 0);
+    margin-left: 40px;
+    font-weight: bold;
+    text-align: center;
     display:flex;
     align-items: flex-start;
     justify-content: flex;
     font-family:Arial, Helvetica, sans-serif;
      
 }
+
+
+.h22 {
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: solid;
+}
+
 
 .h1-text {
     text-align: center;
@@ -241,23 +248,30 @@ p {
 nav ul {
     background-color: #f88808;
     list-style: none;
-    padding: 0px;
+    padding: 15px;
     display: flex;
     justify-content: center;
     color: rgb(180, 3, 3);
     font-family:Arial, Helvetica, sans-serif;
+    margin-bottom:40px;
+    margin-top: 40px;
+    
 }
 nav ul li {
     font-family:Arial, Helvetica, sans-serif;
+    
     display:inline;
     margin: 0 15px;
     padding: 20px;s
+   
 }
 
 nav ul li a {
     font-family:Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-weight: bold;
+    font-size: 23px;
+    
 }
 
 nav ul li a:hover {
@@ -276,14 +290,16 @@ a {
 
 .edit2{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
+    line-height: 35px;
     margin: 20px;
     padding: 20px;
 }
 
 .edit22 {
      font-family:Arial, Helvetica, sans-serif;
+     
      text-align: center;
      color: #8a2455;
      font-size: 25px;
@@ -332,7 +348,11 @@ a {
     display: none;
     padding: 10px;
 }
-
+.tittel{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
 
 
 
